@@ -12,5 +12,5 @@ provider "reolink" {
 
 # configure camera
 resource "reolink_camera" "RLC-810A" {
-  address         = "192.168.103.221"
+  address = "192.168.103.221"
 }
